@@ -114,7 +114,7 @@ function App() {
           <GameOver winner={winner} onRestart={handleRestart} />
         )}
         <GameBoard onSelectSquare={handleSelectSquare} board={gameBoard} />
-        <p>Hello</p>
+        <p>Hello world</p>
       </div>
       <Log turns={gameTurns} />
     </main>
